@@ -1,3 +1,8 @@
+  Aplikacja, stworzona za pomocą Next.js i Contentful, której zadaniem będzie wyświetlenie każdego drinka i koktajlu dodanego za pomocą Contentful. Drinki i koktajle będzie można znaleźć poprzez pasek wyszukiwania, a także pofiltrować je w zależności od składników.
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
