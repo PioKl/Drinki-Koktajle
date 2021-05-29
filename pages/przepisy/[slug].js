@@ -48,7 +48,7 @@ export const getStaticProps = async ({ params }) => {
         //czyli podsumowując jeśli nie będzie nic istnieć pod danym linkiem, nie będzie dodany żaden taki drink/koktajl, czyli nie ma takiego adresu, wtedy przekieruj na stronę główną, permanent jest false, bo w przyszłości może być pod tym linkiem jakiś drink
     }
     return {
-        props: { drink: items[0], items, reso }, //przekazywany jest tylko pierwszy obiekt z tej tablicy, bo struktura wygląda tak [{}], tablica i jeden obiekt, więc trzeba użyć items[0]
+        props: { drink: items[0] }, //przekazywany jest tylko pierwszy obiekt z tej tablicy, bo struktura wygląda tak [{}], tablica i jeden obiekt, więc trzeba użyć items[0]
         //revalidate: 1//jak często next js ma sprawdzać, czy nastąpiła aktualizacja zawartości, tu np. oznacza, że ma sprawdzać co sekundę
 
         //sposób z response
